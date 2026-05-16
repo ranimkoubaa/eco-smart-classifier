@@ -1,0 +1,10 @@
+artifact_location: file:///e:/DSIR1/semestre2/Certification ml/eco-smart-classifier/notebooks/../mlruns/226952388580542507/models/m-053d5a54507e49b6a9d839d526bdb511/artifacts
+creation_timestamp: 1778373096025
+experiment_id: '226952388580542507'
+last_updated_timestamp: 1778373101762
+model_id: m-053d5a54507e49b6a9d839d526bdb511
+model_type: null
+name: model
+source_run_id: 9c9e886211c648daba4f10249bd4d9a8
+status: 2
+status_message: null

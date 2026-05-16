@@ -1,0 +1,10 @@
+artifact_location: file:///e:/DSIR1/semestre2/Certification ml/eco-smart-classifier/notebooks/../mlruns/276021689640752642/models/m-6210253324164a159c090a332cd66dad/artifacts
+creation_timestamp: 1778421310323
+experiment_id: '276021689640752642'
+last_updated_timestamp: 1778421314884
+model_id: m-6210253324164a159c090a332cd66dad
+model_type: null
+name: best_regressor
+source_run_id: 11847ae1f3fc485782c7dd85307555e8
+status: 2
+status_message: null

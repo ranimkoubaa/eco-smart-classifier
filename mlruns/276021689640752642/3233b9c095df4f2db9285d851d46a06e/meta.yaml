@@ -1,0 +1,14 @@
+artifact_uri: file:///e:/DSIR1/semestre2/Certification ml/eco-smart-classifier/notebooks/../mlruns/276021689640752642/3233b9c095df4f2db9285d851d46a06e/artifacts
+end_time: 1778419386501
+entry_point_name: ''
+experiment_id: '276021689640752642'
+lifecycle_stage: active
+run_id: 3233b9c095df4f2db9285d851d46a06e
+run_name: EXP3_stacking_classifier
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778419379830
+status: 3
+tags: []
+user_id: anas

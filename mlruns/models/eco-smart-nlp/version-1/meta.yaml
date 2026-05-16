@@ -1,0 +1,16 @@
+creation_timestamp: 1778418990345
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1778418990345
+model_id: m-0e3f780b51fd4e47bb18e8d85c7e3675
+name: eco-smart-nlp
+run_id: a8379f526c5f410eb9733d741b76d400
+run_link: null
+source: models:/m-0e3f780b51fd4e47bb18e8d85c7e3675
+status: READY
+status_message: null
+storage_location: file:///e:/DSIR1/semestre2/Certification ml/eco-smart-classifier/notebooks/../mlruns/276021689640752642/models/m-0e3f780b51fd4e47bb18e8d85c7e3675/artifacts
+user_id: null
+version: 1
+workspace: default

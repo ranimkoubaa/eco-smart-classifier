@@ -1,0 +1,10 @@
+artifact_location: file:///e:/DSIR1/semestre2/Certification ml/eco-smart-classifier/notebooks/../mlruns/276021689640752642/models/m-5b5efcd5d93b457e8da64be18c0b2469/artifacts
+creation_timestamp: 1778419380014
+experiment_id: '276021689640752642'
+last_updated_timestamp: 1778419386487
+model_id: m-5b5efcd5d93b457e8da64be18c0b2469
+model_type: null
+name: stacking_classifier
+source_run_id: 3233b9c095df4f2db9285d851d46a06e
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: file:///e:/DSIR1/semestre2/Certification ml/eco-smart-classifier/notebooks/../mlruns/276021689640752642/386334aefe2340e0b68eb404637f622f/artifacts
+end_time: 1778418225119
+entry_point_name: ''
+experiment_id: '276021689640752642'
+lifecycle_stage: active
+run_id: 386334aefe2340e0b68eb404637f622f
+run_name: nlp_BoW_naive_bayes
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778418223552
+status: 3
+tags: []
+user_id: anas

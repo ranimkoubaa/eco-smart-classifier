@@ -1,0 +1,10 @@
+artifact_location: file:///e:/DSIR1/semestre2/Certification ml/eco-smart-classifier/notebooks/../mlruns/276021689640752642/models/m-dda9cef3640d4e1086412ba2e8465696/artifacts
+creation_timestamp: 1778417881043
+experiment_id: '276021689640752642'
+last_updated_timestamp: 1778417893711
+model_id: m-dda9cef3640d4e1086412ba2e8465696
+model_type: null
+name: nlp_model
+source_run_id: 56849e01c99a41799eb73a9e8a3d9f90
+status: 2
+status_message: null

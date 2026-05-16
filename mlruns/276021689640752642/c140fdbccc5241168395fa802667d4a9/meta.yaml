@@ -1,0 +1,14 @@
+artifact_uri: file:///e:/DSIR1/semestre2/Certification ml/eco-smart-classifier/notebooks/../mlruns/276021689640752642/c140fdbccc5241168395fa802667d4a9/artifacts
+end_time: 1778420946039
+entry_point_name: ''
+experiment_id: '276021689640752642'
+lifecycle_stage: active
+run_id: c140fdbccc5241168395fa802667d4a9
+run_name: EXP5_final_production_models
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778420933627
+status: 3
+tags: []
+user_id: anas

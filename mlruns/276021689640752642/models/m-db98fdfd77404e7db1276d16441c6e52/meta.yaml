@@ -1,0 +1,10 @@
+artifact_location: file:///e:/DSIR1/semestre2/Certification ml/eco-smart-classifier/notebooks/../mlruns/276021689640752642/models/m-db98fdfd77404e7db1276d16441c6e52/artifacts
+creation_timestamp: 1778421319966
+experiment_id: '276021689640752642'
+last_updated_timestamp: 1778421324566
+model_id: m-db98fdfd77404e7db1276d16441c6e52
+model_type: null
+name: regressor
+source_run_id: 79b921300ceb4be1bc8b739b4da0b6e5
+status: 2
+status_message: null

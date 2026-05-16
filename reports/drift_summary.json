@@ -1,0 +1,5 @@
+{
+  "js_divergence": 0.0738,
+  "threshold": 0.2,
+  "text_drift_detected": false
+}

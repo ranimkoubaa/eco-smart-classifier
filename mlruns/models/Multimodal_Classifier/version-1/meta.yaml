@@ -1,0 +1,16 @@
+creation_timestamp: 1778373231268
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1778373231268
+model_id: m-8a23b0a214de4480b556dc118041c480
+name: Multimodal_Classifier
+run_id: 77d3c2ead2404af7812e98367f3b6cb8
+run_link: null
+source: models:/m-8a23b0a214de4480b556dc118041c480
+status: READY
+status_message: null
+storage_location: file:///e:/DSIR1/semestre2/Certification ml/eco-smart-classifier/notebooks/../mlruns/226952388580542507/models/m-8a23b0a214de4480b556dc118041c480/artifacts
+user_id: null
+version: 1
+workspace: default

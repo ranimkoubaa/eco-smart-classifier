@@ -1,0 +1,14 @@
+artifact_uri: file:///e:/DSIR1/semestre2/Certification ml/eco-smart-classifier/notebooks/../mlruns/226952388580542507/dad7624e355a450eab57319da4fee276/artifacts
+end_time: 1778373108482
+entry_point_name: ''
+experiment_id: '226952388580542507'
+lifecycle_stage: active
+run_id: dad7624e355a450eab57319da4fee276
+run_name: SVM
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778373101788
+status: 3
+tags: []
+user_id: anas

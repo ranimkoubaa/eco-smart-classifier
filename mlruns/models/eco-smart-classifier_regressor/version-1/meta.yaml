@@ -1,0 +1,16 @@
+creation_timestamp: 1778419407733
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1778419407733
+model_id: m-6bac2ad3950148968adde08b6baa440c
+name: eco-smart-classifier_regressor
+run_id: a98904181d074256bdafbf6f3625b7e5
+run_link: null
+source: models:/m-6bac2ad3950148968adde08b6baa440c
+status: READY
+status_message: null
+storage_location: file:///e:/DSIR1/semestre2/Certification ml/eco-smart-classifier/notebooks/../mlruns/276021689640752642/models/m-6bac2ad3950148968adde08b6baa440c/artifacts
+user_id: null
+version: 1
+workspace: default

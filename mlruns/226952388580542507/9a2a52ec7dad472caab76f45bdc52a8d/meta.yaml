@@ -1,0 +1,14 @@
+artifact_uri: file:///e:/DSIR1/semestre2/Certification ml/eco-smart-classifier/notebooks/../mlruns/226952388580542507/9a2a52ec7dad472caab76f45bdc52a8d/artifacts
+end_time: 1778373244519
+entry_point_name: ''
+experiment_id: '226952388580542507'
+lifecycle_stage: active
+run_id: 9a2a52ec7dad472caab76f45bdc52a8d
+run_name: RandomForest_Regressor_Prix
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778373232193
+status: 3
+tags: []
+user_id: anas

@@ -1,0 +1,16 @@
+creation_timestamp: 1778420939592
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1778420939592
+model_id: m-9539f80d5d4f40749a44d3ffbbb36e0f
+name: eco-smart-classifier
+run_id: c140fdbccc5241168395fa802667d4a9
+run_link: null
+source: models:/m-9539f80d5d4f40749a44d3ffbbb36e0f
+status: READY
+status_message: null
+storage_location: file:///e:/DSIR1/semestre2/Certification ml/eco-smart-classifier/notebooks/../mlruns/276021689640752642/models/m-9539f80d5d4f40749a44d3ffbbb36e0f/artifacts
+user_id: null
+version: 2
+workspace: default

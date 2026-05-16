@@ -1,0 +1,14 @@
+artifact_uri: file:///e:/DSIR1/semestre2/Certification ml/eco-smart-classifier/notebooks/../mlruns/226952388580542507/77d3c2ead2404af7812e98367f3b6cb8/artifacts
+end_time: 1778373231323
+entry_point_name: ''
+experiment_id: '226952388580542507'
+lifecycle_stage: active
+run_id: 77d3c2ead2404af7812e98367f3b6cb8
+run_name: Multimodal_Pipeline
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778373220308
+status: 3
+tags: []
+user_id: anas

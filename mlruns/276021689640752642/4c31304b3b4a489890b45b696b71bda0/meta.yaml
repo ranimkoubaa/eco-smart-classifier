@@ -1,0 +1,14 @@
+artifact_uri: file:///e:/DSIR1/semestre2/Certification ml/eco-smart-classifier/notebooks/../mlruns/276021689640752642/4c31304b3b4a489890b45b696b71bda0/artifacts
+end_time: 1778421270323
+entry_point_name: ''
+experiment_id: '276021689640752642'
+lifecycle_stage: active
+run_id: 4c31304b3b4a489890b45b696b71bda0
+run_name: nlp_TF-IDF_svm
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778421265309
+status: 3
+tags: []
+user_id: anas

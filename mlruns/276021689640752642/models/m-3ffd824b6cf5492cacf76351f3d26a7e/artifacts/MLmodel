@@ -1,0 +1,23 @@
+artifact_path: file:///e:/DSIR1/semestre2/Certification ml/eco-smart-classifier/notebooks/../mlruns/276021689640752642/models/m-3ffd824b6cf5492cacf76351f3d26a7e/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.12.0
+model_id: m-3ffd824b6cf5492cacf76351f3d26a7e
+model_size_bytes: 46708
+model_uuid: m-3ffd824b6cf5492cacf76351f3d26a7e
+prompts: null
+run_id: ffdf7ce3d56548fcb1ad1d81a581e792
+utc_time_created: '2026-05-13 00:03:59.602034'

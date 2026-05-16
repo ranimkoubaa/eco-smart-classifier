@@ -1,0 +1,54 @@
+
+
+services:
+  api:
+    build: { context: ., target: api }
+    container_name: eco_api
+    ports: ["8000:8000"]
+    volumes:
+      - ./models:/app/models:ro
+      - ./data:/app/data:ro
+      - ./params.yaml:/app/params.yaml:ro
+      - ./mlruns:/app/mlruns
+    environment: [PYTHONPATH=/app]
+    restart: unless-stopped
+
+  webapp:
+    build: { context: ., target: webapp }
+    container_name: eco_webapp
+    ports: ["8501:8501"]
+    volumes:
+      - ./data:/app/data:ro
+      - ./reports:/app/reports:ro
+    environment:
+      - PYTHONPATH=/app
+      - API_URL=http://api:8000
+    depends_on: [api]
+    restart: unless-stopped
+
+  prometheus:
+    image: prom/prometheus:v2.52.0
+    container_name: eco_prometheus
+    ports: ["9090:9090"]
+    volumes:
+      - ./monitoring/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+    restart: unless-stopped
+
+  grafana:
+    image: grafana/grafana:11.0.0
+    container_name: eco_grafana
+    ports: ["3000:3000"]
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./monitoring/grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./monitoring/grafana/dashboards:/var/lib/grafana/dashboards:ro
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=ecosmart2026
+      - GF_USERS_ALLOW_SIGN_UP=false
+    depends_on: [prometheus]
+    restart: unless-stopped
+
+volumes:
+  prometheus_data:
+  grafana_data:

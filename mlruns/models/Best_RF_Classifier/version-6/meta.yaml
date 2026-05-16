@@ -1,0 +1,16 @@
+creation_timestamp: 1778373161832
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1778373161832
+model_id: m-3a19597f43244a1fbbdc925c5c6a6bc1
+name: Best_RF_Classifier
+run_id: e374eaf155a1486f8ba4caebc243907c
+run_link: null
+source: models:/m-3a19597f43244a1fbbdc925c5c6a6bc1
+status: READY
+status_message: null
+storage_location: file:///e:/DSIR1/semestre2/Certification ml/eco-smart-classifier/notebooks/../mlruns/226952388580542507/models/m-3a19597f43244a1fbbdc925c5c6a6bc1/artifacts
+user_id: null
+version: 6
+workspace: default

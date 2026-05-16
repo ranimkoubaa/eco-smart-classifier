@@ -1,0 +1,47 @@
+data:
+  raw_path: data/raw/dataset_ProjetML_2026.csv
+  train_path: data/processed/train.csv
+  val_path: data/processed/val.csv
+  test_path: data/processed/test.csv
+  random_state: 42
+
+columns:
+  # numeric features after standardization (Prix_Revente included)
+  numeric: [Poids, Volume, Conductivite, Opacite, Rigidite, Prix_Revente]
+  # OHE source columns created by Personne 1
+  source_ohe: [Source_Centre_Tri, Source_Collecte_Citoyenne, Source_Inconnu, Source_Usine_A, Source_Usine_B]
+  source_encoded: Source_encoded
+  target: Categorie
+  price: Prix_Revente
+  text: Rapport_Collecte
+  # numeric_features used by MLflow notebook = all cols except target, price, text
+  numeric_features: [Poids, Volume, Conductivite, Opacite, Rigidite,
+                     Source_Centre_Tri, Source_Collecte_Citoyenne, Source_Inconnu,
+                     Source_Usine_A, Source_Usine_B, Source_encoded]
+
+nlp:
+  max_features: 5000
+  ngram_range: [1, 2]
+  min_df: 2
+  sublinear_tf: true
+  vectorizer: tfidf        # options: bow | tfidf
+  classifier: svm          # options: naive_bayes | logistic | svm | random_forest
+  word2vec_size: 100
+  word2vec_window: 5
+  word2vec_min_count: 2
+
+model:
+  min_accuracy: 0.70
+  cv_folds: 5
+  classifier_path: models/classifier.pkl
+  regressor_path: models/regressor.pkl
+  nlp_path: models/nlp_classifier.pkl
+
+mlflow:
+  experiment_name: eco-smart-classifier
+  tracking_uri: mlruns
+
+monitoring:
+  drift_threshold: 0.10
+  js_divergence_threshold: 0.20
+  alert_accuracy_drop: 0.05

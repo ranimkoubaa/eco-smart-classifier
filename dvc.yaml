@@ -1,0 +1,68 @@
+stages:
+
+  # Personne 1 — data cleaning + split
+  prepare_data:
+    cmd: python src/data/make_dataset.py
+    deps:
+      - src/data/make_dataset.py
+      - data/raw/dataset_ProjetML_2026.csv
+    params:
+      - data
+      - columns
+    outs:
+      - data/processed/train.csv
+      - data/processed/val.csv
+      - data/processed/test.csv
+      - data/processed/dataset_clean.csv
+      - data/processed/dataset_unlabeled.csv
+
+  # Personne 2 — numeric classifier + regressor
+  train_models:
+    cmd: python src/models/train_model.py
+    deps:
+      - src/models/train_model.py
+      - data/processed/train.csv
+      - data/processed/val.csv
+    params:
+      - columns
+      - model
+      - mlflow
+    outs:
+      - models/classifier.pkl
+      - models/regressor.pkl
+    metrics:
+      - reports/classification_metrics.json:
+          cache: false
+      - reports/regression_metrics.json:
+          cache: false
+
+  # Personne 3 — NLP pipeline
+  train_nlp:
+    cmd: python src/nlp/nlp_pipeline.py --mode train
+    deps:
+      - src/nlp/nlp_pipeline.py
+      - data/processed/train.csv
+      - data/processed/val.csv
+    params:
+      - columns
+      - nlp
+      - mlflow
+    outs:
+      - models/nlp_classifier.pkl
+    metrics:
+      - reports/nlp_metrics.json:
+          cache: false
+
+  # Personne 3 — drift report
+  drift_report:
+    cmd: python src/monitoring/drift_report.py
+    deps:
+      - src/monitoring/drift_report.py
+      - data/processed/train.csv
+      - data/processed/test.csv
+    params:
+      - columns
+      - monitoring
+    outs:
+      - reports/drift_report.html:
+          cache: false

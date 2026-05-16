@@ -1,0 +1,10 @@
+artifact_location: file:///e:/DSIR1/semestre2/Certification ml/eco-smart-classifier/notebooks/../mlruns/276021689640752642/models/m-b19d4f48d96c449e9bf44fafd59c864c/artifacts
+creation_timestamp: 1778420884318
+experiment_id: '276021689640752642'
+last_updated_timestamp: 1778420902956
+model_id: m-b19d4f48d96c449e9bf44fafd59c864c
+model_type: null
+name: random_forest_tuned
+source_run_id: 2ce08bfe752f48409ff27564a95233a1
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: file:///e:/DSIR1/semestre2/Certification ml/eco-smart-classifier/notebooks/../mlruns/226952388580542507/0f79a26a6cb947f8bfbd285bb0669da1/artifacts
+end_time: 1778373136757
+entry_point_name: ''
+experiment_id: '226952388580542507'
+lifecycle_stage: active
+run_id: 0f79a26a6cb947f8bfbd285bb0669da1
+run_name: Optuna_RF_Tuning
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778373128108
+status: 3
+tags: []
+user_id: anas
